@@ -31,7 +31,7 @@ extension UIButton {
                        options: [.curveEaseInOut],
                        animations: {
                         button.transform = transform
-            }, completion: nil)
+                       }, completion: nil)
     }
     
 }

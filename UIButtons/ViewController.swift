@@ -21,15 +21,14 @@ class ViewController: UIViewController {
         setupHeartButton()
         
         playButton.setBackgroundColor(.black, for: .highlighted)
+        
         animatedButton.startAnimatingPressActions()
         animatedButton.layer.cornerRadius = 15
-        
+      
         soundToggleButton.setSoundButtonInitialState()
         
         applePayButton.center = applePayView.center
-        
         applePayButton.frame = CGRect(x: 0 , y: 0, width: 350, height: 45)
-        
         applePayView.addSubview(applePayButton)
 
     }
@@ -115,9 +114,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var addMOneyButton: UIButton!
     @IBOutlet weak var soundToggleButton: SoundToggle!
     @IBOutlet weak var lottieViewButton: AnimatedButton!
-    
     @IBOutlet weak var bottomStackView: UIStackView!
-    
     @IBOutlet weak var applePayView: UIView!
     
     

@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="9Wh-xK-TSE" userLabel="MainStackView">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="9Wh-xK-TSE" userLabel="MainStackView">
                                 <rect key="frame" x="32" y="154" width="350" height="588"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="Mkv-4E-ZRa">
@@ -238,8 +238,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="9Wh-xK-TSE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Cd8-lz-vzG"/>
-                            <constraint firstItem="9Wh-xK-TSE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dbs-Gm-nxQ"/>
                             <constraint firstItem="9Wh-xK-TSE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FDj-dd-mZW"/>
                             <constraint firstItem="9Wh-xK-TSE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a4o-KK-g93"/>
                         </constraints>

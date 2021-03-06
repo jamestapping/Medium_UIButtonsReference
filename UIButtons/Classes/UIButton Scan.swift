@@ -34,7 +34,7 @@ class Scan: UIButton {
         
     }
     
-    var highlightDuration: TimeInterval = 0.15
+    var highlightDuration: TimeInterval = 0.2
     var highlightedBackgroundColor: UIColor = .black
     var normalBackgroundColor: UIColor = .clear
     
