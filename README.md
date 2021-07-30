@@ -1,3 +1,3 @@
-# UIButtonsReference
+UIButtonsReference
 
-A demo of a few buttons for IOS
+A few examples of custom UIButtons
